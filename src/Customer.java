@@ -8,4 +8,8 @@ public class Customer {
     public void createAccount(){
 
     }
+
+    public boolean subscribe(BankEvent event){
+        return event != null;
+    }
 }
